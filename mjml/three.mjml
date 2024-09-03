@@ -1,0 +1,113 @@
+<mjml>
+  <mj-head>
+    <mj-title>Hello world</mj-title>
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Poppins, Helvetica, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="14px" color="#333333" line-height="24px"></mj-text>
+      <mj-section padding="0px"></mj-section>
+    </mj-attributes>
+    <mj-style>
+      .body {
+        border-bottom: 20px solid red;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="white" css-class="body">
+    <mj-section padding-bottom="35px" padding-top="35px">
+      <mj-column width="100%">
+        <mj-image src="../img/logo.png" width="188px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-image src="../img/hero-image-3.jpg" width="82px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="30px">
+      <mj-column width="100%">
+        <mj-text font-size="24px" color="black" font-weight="500">
+          <p>Hola [Nombre del solicitante],</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text>
+          <p>Nos complace informarte que tu solicitud para unirte a Guía Mundial Hispana ha sido aprobada. ¡Bienvenido a nuestra comunidad!</p>
+          <p style="text-align: center">Tu Código de Afiliado es:</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-table>
+          <tr>
+            <td style="background-color: #ffeaea; padding: 15px; text-align: center; font-size: 30px; color: #333">
+              5
+            </td>
+            <td style="background-color: #ffeaea; padding: 15px; text-align: center; font-size: 30px; color: #333;">
+              7
+            </td>
+            <td style="background-color: #ffeaea; padding: 15px; text-align: center; font-size: 30px; color: #333;">
+              2
+            </td>
+            <td style="background-color: #ffeaea; padding: 15px; text-align: center; font-size: 30px; color: #333;">
+              0
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text>
+          <p>Para activar tu cuenta y comenzar a disfrutar de todos los beneficios, sigue estos pasos:</p>
+          <ol>
+            <li>Realiza el pago de la suscripción: Puedes realizar tu pago a través de [detalles de pago, método, enlace, etc.].</li>
+            <li>Revisa los Términos y Condiciones de Guía Mundial Hispana: Antes de proceder, asegúrate de leer y aceptar nuestros términos [enlace a términos y condiciones].</li>
+            <li>Confirmación y Activación: Una vez que hayamos confirmado tu pago, activaremos tu cuenta, y podrás iniciar tu proceso de reclutamiento de afiliados dentro de tu perfil.</li>
+          </ol>
+          <p>Si tienes alguna pregunta o necesitas asistencia, estamos aquí para ayudarte. No dudes en contactarnos en cualquier momento.</p>
+          <p style="color:red; font-weight: 700">¡Gracias por elegir Guía Mundial Hispana, estamos emocionados de ver todo lo que lograrás con nosotros!</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text>
+          <p style="margin:0px">Saludos, <br><span style="color:red">El equipo de Guía Mundial Hispana</span></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="69px">
+      <mj-column width="100%">
+        <mj-divider border-color="#D9D9D9" border-width="1px"></mj-divider>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text align="center">
+          <p style="margin:0px">¿Necesitas ayuda? Contáctanos en</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section text-align="center">
+      <mj-column width="20%">
+        <mj-image width="30px" href="google.com" src="../img/instagram.jpg"></mj-image>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-image width="30px" href="google.com" src="../img/facebook.png"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <!--  -->
+      <mj-column width="100%">
+        <mj-divider border-color="#D9D9D9" border-width="1px"></mj-divider>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text align="center" font-size="10px">
+          <p>© 2024 Guía Mundial Hispana. Derechos Reservados</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
